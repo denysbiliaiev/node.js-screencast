@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+  <form id="publish" class="form-inline">
+      <input type="text" name="message"/>
+      <input type="submit" class="btn btn-primary"/>
+  </form>
+
+  <ul id="messages"></ul>
+
+</body>
+</html>
+
+<script>
+    publish.onsubmit = function() {
+        var xhr = new XMLHttpRequest();
+
+        xhr.open('POST', '/publish', true);
+
+        xhr.send(JSON.stringify({message: this.elements.message.value}));
+
+        xhr.onreadystatechange = function() {
+            if (xhr.readyState == 4) {
+                if (xhr.status == 200) {
+                }
+            }
+        }
+
+        this.elements.message.value = '';
+
+        return false;
+    }
+
+    subscribe();
+
+    function subscribe() {
+        var xhr = new XMLHttpRequest();
+
+        xhr.open('GET', '/subscribe', true);
+        xhr.timeout = 100000;
+        xhr.send(null);
+
+        xhr.onload = function() {
+            var li = document.createElement('li');
+            li.textContent = xhr.responseText;
+            messages.appendChild(li);
+
+            subscribe();
+        }
+
+        xhr.ontimeout = function() {
+            subscribe();
+        }
+
+        xhr.onerror = function() {
+            setTimeout(subscribe, 1000);
+        }
+
+    }
+
+</script>
+
+
+
+

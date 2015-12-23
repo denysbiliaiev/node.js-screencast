@@ -1,0 +1,23 @@
+doctype html
+html
+    head
+        meta(charset="utf-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        title(koa-passport example)
+    body
+        form(action="/login" method="post")
+            p
+                label Username:
+                input(type="text" name="username" value="test")
+            p
+                label Password:
+                input(type="password" name="password" value="test")
+            p
+                button(type="submit") Log In
+            p
+                a(href="/auth/facebook") Sign in with Facebook
+                a(href="/auth/twitter") Sign in with Twitter
+                a(href="/auth/google") Sign in with Google
+
+
+

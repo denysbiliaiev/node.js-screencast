@@ -1,0 +1,15 @@
+{"errno":-4058,"code":"ENOENT","syscall":"open","path":"C:\\Users\\Denis\\Dropbox\\Denis.Belyaev\\lesson_1\\winston\\error1.log","level":"error","label":"winston/server.js","timestamp":"2015-11-22 17:39:28"}
+{"errno":-4058,"code":"ENOENT","syscall":"open","path":"C:\\Users\\Denis\\Dropbox\\Denis.Belyaev\\lesson_1\\winston\\error1.log","level":"error","label":"winston/server.js","timestamp":"2015-11-22 17:39:37"}
+{"errno":-4058,"code":"ENOENT","syscall":"open","path":"C:\\Users\\Denis\\Dropbox\\Denis.Belyaev\\lesson_1\\winston\\error1.log","level":"error","label":"winston/server.js","timestamp":"2015-11-22 17:39:39"}
+{"level":"test","message":"Server listen 3000","label":"winston/server.js","timestamp":"2015-11-22 17:40:52"}
+{"errno":-4058,"code":"ENOENT","syscall":"open","path":"C:\\Users\\Denis\\Dropbox\\Denis.Belyaev\\lesson_1\\winston\\error1.log","level":"error","label":"winston/server.js","timestamp":"2015-11-22 17:40:52"}
+{"errno":-4058,"code":"ENOENT","syscall":"open","path":"C:\\Users\\Denis\\Dropbox\\Denis.Belyaev\\lesson_1\\winston\\error1.log","level":"error","label":"winston/server.js","timestamp":"2015-11-22 17:42:19"}
+{"errno":-4058,"code":"ENOENT","syscall":"open","path":"C:\\Users\\Denis\\Dropbox\\Denis.Belyaev\\lesson_1\\winston\\error1.log","level":"error","label":"winston/server.js","timestamp":"2015-11-22 17:42:26"}
+{"errno":-4058,"code":"ENOENT","syscall":"open","path":"C:\\Users\\Denis\\Dropbox\\Denis.Belyaev\\lesson_1\\winston\\error1.log","level":"error","label":"winston/server.js","timestamp":"2015-11-22 17:51:25"}
+{"errno":-4058,"code":"ENOENT","syscall":"open","path":"C:\\Users\\Denis\\Dropbox\\Denis.Belyaev\\lesson_1\\winston\\error1.log","level":"error","label":"winston/server.js","timestamp":"2015-11-22 17:51:52"}
+{"errno":-4058,"code":"ENOENT","syscall":"open","path":"C:\\Users\\Denis\\Dropbox\\Denis.Belyaev\\lesson_1\\winston\\error1.log","level":"error","label":"winston/server.js","timestamp":"2015-11-22 17:52:03"}
+{"errno":-4058,"code":"ENOENT","syscall":"open","path":"C:\\Users\\Denis\\Dropbox\\Denis.Belyaev\\lesson_1\\winston\\error1.log","level":"error","label":"winston/server.js","timestamp":"2015-11-22 17:52:07"}
+{"level":"test","message":"The \"data to append\" was appended to file!","label":"winston/server.js","timestamp":"2015-11-22 21:02:11"}
+{"level":"test","message":"The \"data to append\" was appended to file!","label":"winston/server.js","timestamp":"2015-11-22 21:02:54"}
+{"level":"test","message":"The \"data to append\" was appended to file!","label":"winston/server.js","timestamp":"2015-11-22 21:03:52"}
+{"level":"test","message":"The \"data to append\" was appended to file!","label":"winston/server.js","timestamp":"2015-11-22 21:05:04"}

@@ -1,0 +1,14 @@
+var fs = require('fs');
+
+fs.readFile(__filename, (err, data) => {
+    console.log(data);
+    if(err) console.log(err);
+
+
+    fs.writeFile('./file1.txt', data, 'utf8', function (err) {
+        if (err) throw err;
+        console.log('The "data to append" was appended to file!');
+    });
+})
+
+

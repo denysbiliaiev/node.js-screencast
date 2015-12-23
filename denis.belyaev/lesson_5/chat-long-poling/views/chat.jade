@@ -1,0 +1,16 @@
+doctype html
+html
+    head
+        script(src='/js/chat.js')
+    body
+        div User: #{user}
+        div.chatbox
+            form#publishForm
+                input(type="text", name="message")
+                input(type="submit", value="отправить")
+        ul#messages
+
+
+
+
+

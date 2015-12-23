@@ -1,0 +1,17 @@
+doctype html
+html
+    head
+        script(src="/socket.io/socket.io.js")
+        script(src='/js/chat.js')
+    body
+        div User: #{user}
+        div.chatbox
+            form#room_form
+                input#msgBox(type="text", name="message")
+                input#chatBox(type="submit", value="отправить")
+        ul#messages
+
+
+
+
+

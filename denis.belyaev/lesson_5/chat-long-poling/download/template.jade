@@ -1,0 +1,10 @@
+doctype html
+html
+    head
+        script(src='/js/chat.js')
+    body
+        div User: #{user}
+        div.chatbox
+            form(name="message", action='/', method="post")
+                input(type="text", name="message")
+                input(type="submit", value="отправить")
